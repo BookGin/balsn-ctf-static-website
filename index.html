@@ -80,8 +80,7 @@
   </body>
   <script>
   $('.future_date').countdowntimer({
-    dateAndTime : "2019/10/05 10:00:00",
-    timeZone: +8
+    dateAndTime : new Date("2019/10/05 10:00:00 GMT+0800"),
   });
   let lang = window.location.hash.substring(1);
   let showEn = () => {
